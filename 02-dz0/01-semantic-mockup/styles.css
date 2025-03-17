@@ -1,0 +1,47 @@
+body {
+  color: #fff;
+  margin: 0;
+}
+
+header {
+  background-color: #eb3223;
+}
+
+header h1 {
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+header nav {
+  background-color: #f29d38;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+header nav a {
+  padding-inline: 0.5rem;
+}
+
+main {
+  background-color: #489e4e;
+  padding: 0.5rem;
+}
+
+article {
+  background-color: #002ff5;
+  margin: 0.4rem;
+  padding: 0.4rem;
+}
+
+footer {
+  background-color: #ac35f6;
+  padding: 0.5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
