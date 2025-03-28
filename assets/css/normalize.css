@@ -39,7 +39,7 @@ main {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0;
 }
 
 /* Grouping content
@@ -347,3 +347,16 @@ template {
 [hidden] {
   display: none;
 }
+
+
+/**
+ * Text margin reset
+ */
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p {
+   margin: 0;
+ }
