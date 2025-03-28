@@ -1,6 +1,4 @@
 .histogram {
-    --primary-override: #4263eb;
-    --title: #4d5054; /* Цвет тайтла, в фигме указан black, но на самом деле более серый рисуется. Какая-то странность.*/
     padding: 16px 24px 24px 24px;
     box-sizing: border-box;
     background: #ffffff;
@@ -8,10 +6,6 @@
     border-radius: 8px;
     font-family: 'Inter';
     font-style: normal;
-}
-
-.histogram * {
-    margin: 0;
 }
 
 .histogram__title-container {
@@ -23,7 +17,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    color: var(--title);
+    color: var(#4d5054);
 }
 
 .histogram__total-value {
@@ -31,31 +25,31 @@
     font-size: 20px;
     line-height: 26px;
     color: var(--black);
-    padding-top: 6px;
+    margin-top: 6px;
 }
 
 .histogram__filter {
-    padding-top: 3px;
+    margin-top: 3px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    text-align: right;
-    color: var(--primary-override);
+    color: var(--primary);
 }
 
 .histogram__bar-list {
     display: flex;
+    overflow:auto;
     align-items: flex-end;
-    list-style-type: none;
-    padding: 39px 5px 0 2px;
+    list-style-type: none;    
+    margin-top: 39px;
+    padding: 0 5px 0 2px;
     height: 50px;
     gap: 1px;
 }
 
 .histogram__bar {
     height: var(--value);
-    background-color: var(--primary-override);
-    flex-basis: 20px;
+    background-color: var(--primary);
     flex-grow: 1;
     min-width: 2px;
 }
