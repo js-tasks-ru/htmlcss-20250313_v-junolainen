@@ -38,7 +38,6 @@
 
 .histogram__bar-list {
     display: flex;
-    overflow:auto;
     align-items: flex-end;
     list-style-type: none;    
     margin-top: 39px;
@@ -51,5 +50,4 @@
     height: var(--value);
     background-color: var(--primary);
     flex-grow: 1;
-    min-width: 2px;
 }
