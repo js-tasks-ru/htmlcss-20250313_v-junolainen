@@ -1,0 +1,7 @@
+.demo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 200px;
+}
