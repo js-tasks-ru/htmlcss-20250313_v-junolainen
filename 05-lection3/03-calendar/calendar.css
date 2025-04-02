@@ -2,7 +2,7 @@
     background: var(--white);
     border: 1px solid var(--grey-3);
     border-radius: 8px;
-    padding: 28px 26px;
+    padding: 28px 26px 32px;
     width: 100%;
     max-width: 300px;
     font-family: 'Inter';
@@ -19,7 +19,7 @@
 
 .calendar__wrapper {
     padding-bottom: 100%;
-    margin-top: 14px;
+    margin-top: 24px;
     position: relative;
 }
 
@@ -36,7 +36,6 @@
 
 .calendar__item {
     display: flex;
-    align-items: center;
     justify-content: center;
     font-weight: 400;
     line-height: 20px;
@@ -48,6 +47,7 @@
 }
 
 .calendar__item_date {
+    align-items: center;
     font-family: 'Source Sans 3';
     font-style: normal;
     font-size: 16px;
