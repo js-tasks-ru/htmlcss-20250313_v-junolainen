@@ -1,7 +1,10 @@
 .main {
     background-color: #f9fafc;
+    padding: 68px 0;
 }
 
-.main__dummy {
-    height: 400px;
+.main__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
