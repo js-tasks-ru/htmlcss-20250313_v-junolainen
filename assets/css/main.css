@@ -27,6 +27,7 @@
     --primary: var(--blue);
     --secondary: var(--purple);
 
+    --widget-text: #334d6e;
     --container-width: 1110px;
 }
 
