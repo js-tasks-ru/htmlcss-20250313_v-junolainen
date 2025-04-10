@@ -21,7 +21,9 @@
     background-color: var(--white);
 }
 
-.modal__close-sign {
+.modal__close-icon {
+    height: 16px;
+    width: 16px;
     display: block;
 }
 
