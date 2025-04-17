@@ -2,10 +2,71 @@
 <!-- Страница чекбокса -->
 <html lang="ru">
     <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./checkbox.css">
+        <link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="./checkbox.css" />
+        <link rel="stylesheet" href="./demo-container.css" />
     </head>
     <body>
-
+        <div class="demo-container">
+            <div class="demo-container__centered-content">
+                <label class="checkbox">
+                    <input type="checkbox" class="checkbox__input" />
+                    <div class="checkbox__state">
+                        <div class="checkbox__control">
+                            <svg class="checkbox__icon">
+                                <use
+                                    xlink:href="../../assets/images/icons-sprite.svg#checkbox-check"
+                                ></use>
+                            </svg>
+                        </div>
+                        <div class="checkbox__label">Default</div>
+                    </div>
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" checked class="checkbox__input" />
+                    <div class="checkbox__state">
+                        <div class="checkbox__control">
+                            <svg class="checkbox__icon">
+                                <use
+                                    xlink:href="../../assets/images/icons-sprite.svg#checkbox-check"
+                                ></use>
+                            </svg>
+                        </div>
+                        <div class="checkbox__label">Checked</div>
+                    </div>
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" disabled class="checkbox__input" />
+                    <div class="checkbox__state">
+                        <div class="checkbox__control">
+                            <svg class="checkbox__icon">
+                                <use
+                                    xlink:href="../../assets/images/icons-sprite.svg#checkbox-check"
+                                ></use>
+                            </svg>
+                        </div>
+                        <div class="checkbox__label">Disabled</div>
+                    </div>
+                </label>
+                <label class="checkbox">
+                    <input
+                        type="checkbox"
+                        checked
+                        disabled
+                        class="checkbox__input"
+                    />
+                    <div class="checkbox__state">
+                        <div class="checkbox__control">
+                            <svg class="checkbox__icon">
+                                <use
+                                    xlink:href="../../assets/images/icons-sprite.svg#checkbox-check"
+                                ></use>
+                            </svg>
+                        </div>
+                        <div class="checkbox__label">Disabled Checked</div>
+                    </div>
+                </label>
+            </div>
+        </div>
     </body>
 </html>
