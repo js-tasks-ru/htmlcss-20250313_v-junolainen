@@ -2,10 +2,88 @@
 <!-- Страница с полем ввода -->
 <html lang="ru">
     <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./input.css">
+        <link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="./input.css" />
+        <link rel="stylesheet" href="./demo-container.css" />
     </head>
     <body>
+        <div class="demo-container">
+            <div class="demo-container__centered-content">
+                <div class="text-input">
+                    <label for="input1" class="text-input__label"
+                        >Label</label
+                    >
+                    <div class="text-input__size-wrapper">
+                        <input
+                            type="text"
+                            class="text-input__input"
+                            id="input1"
+                        />
+                        <svg class="text-input__icon text-input__icon-success">
+                            <use
+                                xlink:href="../../assets/images/icons-sprite.svg#input-check"
+                            ></use>
+                        </svg>
+                        <svg
+                            class="text-input__icon text-input__icon-error"
+                        >
+                            <use
+                                xlink:href="../../assets/images/icons-sprite.svg#input-exclamation"
+                            ></use>
+                        </svg>
+                    </div>
+                </div>
 
+                <div class="text-input text-input_success">
+                    <label for="input1" class="text-input__label"
+                        >Success</label
+                    >
+                    <div class="text-input__size-wrapper">
+                        <input
+                            type="text"
+                            class="text-input__input"
+                            id="input1"
+                        />
+                        <svg class="text-input__icon text-input__icon-success">
+                            <use
+                                xlink:href="../../assets/images/icons-sprite.svg#input-check"
+                            ></use>
+                        </svg>
+                        <svg
+                            class="text-input__icon text-input__icon-error"
+                        >
+                            <use
+                                xlink:href="../../assets/images/icons-sprite.svg#input-exclamation"
+                            ></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="text-input text-input_error">
+                    <label for="input1" class="text-input__label"
+                        >Error</label
+                    >
+                    <div class="text-input__size-wrapper">
+                        <input
+                            type="text"
+                            class="text-input__input"
+                            id="input1"
+                        />
+                        <svg class="text-input__icon text-input__icon-success">
+                            <use
+                                xlink:href="../../assets/images/icons-sprite.svg#input-check"
+                            ></use>
+                        </svg>
+                        <svg
+                            class="text-input__icon text-input__icon-error"
+                        >
+                            <use
+                                xlink:href="../../assets/images/icons-sprite.svg#input-exclamation"
+                            ></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

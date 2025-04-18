@@ -1,0 +1,14 @@
+.demo-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.demo-container__centered-content{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    gap: 16px;
+}
+
