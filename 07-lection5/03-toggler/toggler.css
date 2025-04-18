@@ -51,8 +51,7 @@
 }
 
 .toggler__input:checked ~ .toggler__state .toggler__control::before {
-    left: unset;
-    right: 1px;
+    transform: translate(100%, -50%);
     background: var(--white);
 }
 
