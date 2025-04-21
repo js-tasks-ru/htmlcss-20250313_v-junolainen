@@ -8,6 +8,8 @@
 @import '../../components/card/card.css';
 @import '../../components/container/container.css';
 @import '../../03-lection1/01-button/button.css';
+@import '../../components/menu/menu.css';
+@import '../../components/component-view/component-view.css';
 
 :root {
     --white: #ffffff;
@@ -26,6 +28,8 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --background-detail: #F9FAFC;   
 
     --widget-text: #334d6e;
     --container-width: 1110px;

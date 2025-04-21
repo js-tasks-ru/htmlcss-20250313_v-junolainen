@@ -1,0 +1,18 @@
+.component-view {
+    padding: 32px 48px;
+    display:flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    background: var(--white);
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+}
+
+.component-view__caption {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: var(--grey-4);
+}

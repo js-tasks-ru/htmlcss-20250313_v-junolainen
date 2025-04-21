@@ -1,0 +1,35 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    background: var(--background-detail);
+    font-family: 'Inter';
+    font-style: normal;
+    gap: 30px;
+}
+
+.menu__group{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.menu__nav-caption {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.menu__items {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.menu__active-item {
+    color: #D84910;
+}

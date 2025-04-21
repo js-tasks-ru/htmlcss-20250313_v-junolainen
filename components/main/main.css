@@ -8,3 +8,15 @@
     flex-wrap: wrap;
     gap: 30px;
 }
+
+.main_detail {
+    background: var(--background-detail);
+    padding: 0;
+}
+
+.main__inner{    
+    margin-top: 36px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 56px;
+}
