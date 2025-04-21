@@ -1,6 +1,6 @@
 .footer {
     padding: 72px 0 136px;
-    background-color: var(--white);    
+    background-color: var(--white);
     font-family: 'Inter';
     font-style: normal;
 }
@@ -19,4 +19,19 @@
     line-height: 24px;
     text-align: center;
     color: var(--black);
+}
+
+.footer_detail {
+    padding: 56px 0;
+    background: var(--background-detail);
+}
+
+.footer__text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--grey-3);
+    text-align: center;
 }

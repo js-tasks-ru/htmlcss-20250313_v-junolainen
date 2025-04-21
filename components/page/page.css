@@ -4,6 +4,11 @@
     flex-direction: column;
 }
 
-.page__main{
+.page__main {
     flex-grow: 1;
+}
+
+.page_detail {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
